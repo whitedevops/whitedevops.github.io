@@ -64,7 +64,7 @@ h1 {
 /* Links */
 
 a {
-	transition: color .2s ease-in;
+	transition: color .2s ease;
 	text-decoration: none;
 
 	color: #007aff;
@@ -160,7 +160,7 @@ section h1 {
 	margin: 100px auto;
 	padding: 15px 20px;
 
-	transition: background-color .2s ease-in;
+	transition: background .6s ease;
 	text-align: center;
 	text-transform: uppercase;
 
@@ -169,26 +169,5 @@ section h1 {
 }
 
 #contact:hover {
-	-webkit-animation: pulse 1.5s linear infinite alternate;
-	        animation: pulse 1.5s linear infinite alternate;
-}
-
-@-webkit-keyframes pulse {
-	0% {
-		background: #007aff;
-	}
-
-	100% {
-		background: #5a3fb5;
-	}
-}
-
-@keyframes pulse {
-	0% {
-		background: #007aff;
-	}
-
-	100% {
-		background: #5a3fb5;
-	}
+	background: #007aff;
 }
